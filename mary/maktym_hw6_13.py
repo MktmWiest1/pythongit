@@ -4,6 +4,7 @@ class Summa:
         self.numbers = numbers
         self.desired_sum = desired_sum
 
+
     def index(self):
         for i in range(len(self.numbers)):
             for n in range(i + 1, len(self.numbers)):
